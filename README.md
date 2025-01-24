@@ -158,5 +158,3 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 4. **Be Consistent:** Even a few hours a week adds up over time!
 
 ---
-
-Feel free to modify this roadmap based on your specific goals or time availability. Good luck with your game engine journey! 🎮
