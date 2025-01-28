@@ -1,4 +1,4 @@
-# Game Engine Development Roadmap
+# 🚀 Game Engine Development Roadmap (Optimized)
 
 A step-by-step guide to building your own game engine, leveraging existing libraries to save time and focus on core functionality. This roadmap assumes a part-time commitment of 5–10 hours per week.
 
@@ -21,10 +21,12 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Goal:** Master the basics of C++ programming.
 - **Tasks:**
   - Learn syntax, OOP principles, and memory management.
-  - Practice small projects like a text-based game.
+  - Practice small projects like a text-based game or a simple calculator.
+  - Explore modern C++ features (C++11/14/17/20).
 - **Resources:**
   - [Learn C++](https://learncpp.com)
   - [C++ Primer (Book)](https://www.amazon.com/C-Primer-Stanley-B-Lippman/dp/0321714113)
+  - [Effective Modern C++ (Book)](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
 
 ---
 
@@ -35,9 +37,11 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Start experimenting with libraries:
     - Use **SDL2** or **GLFW** to create a window and handle input.
     - Use **stb_image.h** to load textures and display a 2D sprite.
+  - Build a simple 2D game (e.g., Pong or Breakout).
 - **Resources:**
   - [SDL2 Documentation](https://wiki.libsdl.org/)
   - [GLFW Documentation](https://www.glfw.org/docs/latest/)
+  - [Handmade Hero (YouTube Series)](https://handmadehero.org/)
 
 ---
 
@@ -49,10 +53,12 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Learn a graphics API like **OpenGL** or **Vulkan**.
   - Use **Assimp** to load 3D models (e.g., OBJ or FBX).
   - Add textures using **stb_image.h**.
-- **Milestone:** Render a textured 3D cube and add a movable camera.
+  - Implement basic lighting (e.g., Phong shading).
+- **Milestone:** Render a textured 3D cube with a movable camera and basic lighting.
 - **Resources:**
   - [OpenGL Tutorials](https://learnopengl.com)
   - [Vulkan Tutorial](https://vulkan-tutorial.com)
+  - [The Cherno's OpenGL Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
 
 ---
 
@@ -61,10 +67,12 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Tasks:**
   - Use **Bullet Physics** for 3D physics simulation.
   - For 2D experiments, try **Box2D**.
+  - Implement collision detection and response.
 - **Milestone:** Simulate falling objects that collide and respond to forces.
 - **Resources:**
   - [Bullet Physics Documentation](https://pybullet.org/wordpress/)
   - [Box2D Manual](https://box2d.org/documentation/)
+  - [Game Physics Engine Development (Book)](https://www.amazon.com/Game-Physics-Engine-Development-Commercial-Grade/dp/0123819768)
 
 ---
 
@@ -75,10 +83,12 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Tasks:**
   - Use **SDL2** or **GLFW** for input handling.
   - Add 3D audio using **OpenAL** or **FMOD**.
+  - Implement basic sound effects and background music.
 - **Milestone:** Enable the player to move and hear sound effects (e.g., footsteps, gunfire).
 - **Resources:**
   - [OpenAL Documentation](https://openal.org/)
   - [FMOD API](https://fmod.com/)
+  - [SDL2 Audio Tutorial](https://wiki.libsdl.org/SDL_Audio)
 
 ---
 
@@ -87,9 +97,11 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Tasks:**
   - Integrate **Lua** to handle gameplay scripts like enemy spawning or events.
   - Create a simple API to interact with game objects.
+  - Implement basic game logic via scripting.
 - **Milestone:** Implement basic game logic via scripting.
 - **Resources:**
   - [Programming in Lua](https://www.lua.org/pil/)
+  - [Sol2 (C++ Lua Binding)](https://github.com/ThePhD/sol2)
 
 ---
 
@@ -98,12 +110,13 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Tasks:**
   - Create a single level with basic FPS mechanics.
   - Include one enemy type with simple AI.
-- **Libraries:**
-  - **Recast & Detour** for pathfinding.
-  - **Dear ImGui** for UI (e.g., debugging or HUD).
+  - Use **Recast & Detour** for pathfinding.
+  - Use **Dear ImGui** for UI (e.g., debugging or HUD).
+- **Milestone:** A playable prototype with basic mechanics.
 - **Resources:**
   - [Recast & Detour](https://github.com/recastnavigation/recastnavigation)
   - [Dear ImGui](https://github.com/ocornut/imgui)
+  - [Game AI Pro (Book)](https://www.gameaipro.com/)
 
 ---
 
@@ -114,8 +127,10 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Tasks:**
   - Implement features like shadows, reflections, and bloom.
   - Optimize rendering performance with techniques like Level of Detail (LOD).
+  - Explore deferred shading or physically-based rendering (PBR).
 - **Resources:**
   - [Real-Time Rendering (Book)](https://www.realtimerendering.com/)
+  - [The Cherno's Game Engine Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
 
 ---
 
@@ -158,3 +173,5 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 4. **Be Consistent:** Even a few hours a week adds up over time!
 
 ---
+
+Good luck with your game engine development journey! 🚀
