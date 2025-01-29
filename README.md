@@ -27,6 +27,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - [Learn C++](https://learncpp.com)
   - [C++ Primer (Book)](https://www.amazon.com/C-Primer-Stanley-B-Lippman/dp/0321714113)
   - [Effective Modern C++ (Book)](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
+  - [C++ Programming Tutorial Playlist (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 
 ---
 
@@ -41,7 +42,8 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Resources:**
   - [SDL2 Documentation](https://wiki.libsdl.org/)
   - [GLFW Documentation](https://www.glfw.org/docs/latest/)
-  - [Handmade Hero (YouTube Series)](https://handmadehero.org/)
+  - [Handmade Hero (YouTube Series)](https://www.youtube.com/c/HandmadeHero)
+  - [2D Game Engine Tutorial (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
 
 ---
 
@@ -59,6 +61,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - [OpenGL Tutorials](https://learnopengl.com)
   - [Vulkan Tutorial](https://vulkan-tutorial.com)
   - [The Cherno's OpenGL Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
+  - [Vulkan Tutorial Series (Brendan Galea)](https://www.youtube.com/playlist?list=PL8327DO66OH9KBLvI9W6vIy6mh9j7I6Z_)
 
 ---
 
@@ -73,6 +76,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - [Bullet Physics Documentation](https://pybullet.org/wordpress/)
   - [Box2D Manual](https://box2d.org/documentation/)
   - [Game Physics Engine Development (Book)](https://www.amazon.com/Game-Physics-Engine-Development-Commercial-Grade/dp/0123819768)
+  - [Box2D Tutorial Series (iforce2d)](https://www.youtube.com/playlist?list=PLSlpr6o9vURwq3oxVZSimY8iC-cdd3kIs)
 
 ---
 
@@ -89,6 +93,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - [OpenAL Documentation](https://openal.org/)
   - [FMOD API](https://fmod.com/)
   - [SDL2 Audio Tutorial](https://wiki.libsdl.org/SDL_Audio)
+  - [OpenAL Tutorial Series (Victor Gordan)](https://www.youtube.com/playlist?list=PLPaoO-vpZnumO6StgYV6g7Z5Rz1jY7z0L)
 
 ---
 
@@ -102,6 +107,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Resources:**
   - [Programming in Lua](https://www.lua.org/pil/)
   - [Sol2 (C++ Lua Binding)](https://github.com/ThePhD/sol2)
+  - [Lua Scripting Tutorial (The Cherno)](https://www.youtube.com/watch?v=wBp62mD7sO4)
 
 ---
 
@@ -117,6 +123,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - [Recast & Detour](https://github.com/recastnavigation/recastnavigation)
   - [Dear ImGui](https://github.com/ocornut/imgui)
   - [Game AI Pro (Book)](https://www.gameaipro.com/)
+  - [Dear ImGui Tutorial Series (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
 
 ---
 
@@ -131,6 +138,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Resources:**
   - [Real-Time Rendering (Book)](https://www.realtimerendering.com/)
   - [The Cherno's Game Engine Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
+  - [Advanced OpenGL Tutorials (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
 
 ---
 
@@ -142,6 +150,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Resources:**
   - [Enet](http://enet.bespin.org/)
   - [RakNet](https://github.com/OculusVR/RakNet)
+  - [Networking Tutorial Series (Brendan Galea)](https://www.youtube.com/playlist?list=PL8327DO66OH9KBLvI9W6vIy6mh9j7I6Z_)
 
 ---
 
