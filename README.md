@@ -15,6 +15,46 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 
 ---
 
+
+## 🔑 Key Extensions/Tools for VS Code
+
+If you choose **VS Code**, here are some essential extensions to enhance your game engine development workflow:
+
+| **Extension/Tool**            | **Purpose**                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|
+| **C/C++ Extension**            | Provides IntelliSense (code completion), debugging, and syntax highlighting.|
+| **CMake Tools**                | Simplifies CMake project configuration and build management.                |
+| **GLSL Lint**                  | Validates and lint GLSL shader code for errors and best practices.          |
+| **Lua/Python Extensions**      | Adds support for Lua and Python scripting, including IntelliSense and debugging. |
+| **GitLens**                    | Enhances Git integration with features like blame annotations and history.  |
+| **Clang-Format**               | Automatically formats C++ code to maintain consistent style.                |
+| **Doxygen Documentation Generator** | Simplifies the creation of code documentation using Doxygen.            |
+
+---
+
+### **Why These Extensions?**
+- **C/C++ Extension**: Essential for C++ development, offering powerful debugging and IntelliSense features.
+- **CMake Tools**: Streamlines build configuration, especially for larger projects.
+- **GLSL Lint**: Ensures your shader code is clean and error-free.
+- **Lua/Python Extensions**: Enables seamless integration of scripting languages into your engine.
+- **GitLens**: Improves version control workflows, making collaboration easier.
+- **Clang-Format**: Keeps your codebase clean and consistent.
+- **Doxygen Documentation Generator**: Helps you maintain clear and professional documentation.
+
+---
+
+### **How to Install**
+1. Open **VS Code**.
+2. Go to the **Extensions Marketplace** (Ctrl+Shift+X).
+3. Search for the extension name (e.g., "C/C++").
+4. Click **Install** and restart VS Code if necessary.
+
+---
+
+These extensions will significantly boost your productivity and make **VS Code** a powerful tool for game engine development. 🚀
+
+---
+
 ## 🛠 Year 1: Build the Foundations
 
 ### **1. Learn C++ (3–6 months)**
