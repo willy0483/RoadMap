@@ -6,12 +6,12 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 
 ## 📅 Yearly Goals
 
-| **Year** | **Focus**                          | **Key Achievements**                              |
-|----------|------------------------------------|--------------------------------------------------|
-| 1        | Learn C++ and Engine Fundamentals | Build programming skills and 2D experiments      |
-| 2        | Build Core Engine Components      | Implement 3D rendering, basic physics, and input |
-| 3        | Expand Functionality              | Add audio, scripting, and create a prototype     |
-| 4+       | Advanced Features and Optimization| Graphics effects, multiplayer, and polish        |
+| **Year** | **Focus**                          | **Key Achievements**                              | **Recommended Tool**       |
+|----------|------------------------------------|--------------------------------------------------|----------------------------|
+| 1        | Learn C++ and Engine Fundamentals | Build programming skills and 2D experiments      | **VS Code** (Lightweight)  |
+| 2        | Build Core Engine Components      | Implement 3D rendering, basic physics, and input | **VS Code** or **Visual Studio** (for debugging) |
+| 3        | Expand Functionality              | Add audio, scripting, and create a prototype     | **Visual Studio** (Advanced features) |
+| 4+       | Advanced Features and Optimization| Graphics effects, multiplayer, and polish        | **Visual Studio** (Optimization) |
 
 ---
 
@@ -23,6 +23,8 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Learn syntax, OOP principles, and memory management.
   - Practice small projects like a text-based game or a simple calculator.
   - Explore modern C++ features (C++11/14/17/20).
+- **Recommended Tool:** **VS Code** (Lightweight and fast for learning).
+  - Install the **C/C++ Extension** for IntelliSense and debugging.
 - **Resources:**
   - [Learn C++](https://learncpp.com)
   - [C++ Primer (Book)](https://www.amazon.com/C-Primer-Stanley-B-Lippman/dp/0321714113)
@@ -39,6 +41,8 @@ A step-by-step guide to building your own game engine, leveraging existing libra
     - Use **SDL2** or **GLFW** to create a window and handle input.
     - Use **stb_image.h** to load textures and display a 2D sprite.
   - Build a simple 2D game (e.g., Pong or Breakout).
+- **Recommended Tool:** **VS Code** (Lightweight and customizable).
+  - Use extensions like **CMake Tools** for build management.
 - **Resources:**
   - [SDL2 Documentation](https://wiki.libsdl.org/)
   - [GLFW Documentation](https://www.glfw.org/docs/latest/)
@@ -57,6 +61,8 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Add textures using **stb_image.h**.
   - Implement basic lighting (e.g., Phong shading).
 - **Milestone:** Render a textured 3D cube with a movable camera and basic lighting.
+- **Recommended Tool:** **Visual Studio** (Advanced debugging and profiling for 3D rendering).
+  - Use **Visual Studio's GPU Debugging Tools** for OpenGL/Vulkan.
 - **Resources:**
   - [OpenGL Tutorials](https://learnopengl.com)
   - [Vulkan Tutorial](https://vulkan-tutorial.com)
@@ -72,6 +78,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - For 2D experiments, try **Box2D**.
   - Implement collision detection and response.
 - **Milestone:** Simulate falling objects that collide and respond to forces.
+- **Recommended Tool:** **Visual Studio** (Advanced debugging for physics simulations).
 - **Resources:**
   - [Bullet Physics Documentation](https://pybullet.org/wordpress/)
   - [Box2D Manual](https://box2d.org/documentation/)
@@ -89,6 +96,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Add 3D audio using **OpenAL** or **FMOD**.
   - Implement basic sound effects and background music.
 - **Milestone:** Enable the player to move and hear sound effects (e.g., footsteps, gunfire).
+- **Recommended Tool:** **VS Code** (Lightweight for scripting and audio integration).
 - **Resources:**
   - [OpenAL Documentation](https://openal.org/)
   - [FMOD API](https://fmod.com/)
@@ -104,6 +112,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Create a simple API to interact with game objects.
   - Implement basic game logic via scripting.
 - **Milestone:** Implement basic game logic via scripting.
+- **Recommended Tool:** **VS Code** (Great for scripting with Lua/Python extensions).
 - **Resources:**
   - [Programming in Lua](https://www.lua.org/pil/)
   - [Sol2 (C++ Lua Binding)](https://github.com/ThePhD/sol2)
@@ -119,6 +128,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Use **Recast & Detour** for pathfinding.
   - Use **Dear ImGui** for UI (e.g., debugging or HUD).
 - **Milestone:** A playable prototype with basic mechanics.
+- **Recommended Tool:** **Visual Studio** (Advanced debugging and optimization for game prototypes).
 - **Resources:**
   - [Recast & Detour](https://github.com/recastnavigation/recastnavigation)
   - [Dear ImGui](https://github.com/ocornut/imgui)
@@ -135,6 +145,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
   - Implement features like shadows, reflections, and bloom.
   - Optimize rendering performance with techniques like Level of Detail (LOD).
   - Explore deferred shading or physically-based rendering (PBR).
+- **Recommended Tool:** **Visual Studio** (Advanced profiling and debugging for graphics).
 - **Resources:**
   - [Real-Time Rendering (Book)](https://www.realtimerendering.com/)
   - [The Cherno's Game Engine Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
@@ -147,6 +158,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 - **Tasks:**
   - Use **Enet** or **RakNet** for client-server communication.
   - Sync player actions across multiple clients.
+- **Recommended Tool:** **Visual Studio** (Advanced debugging for networking).
 - **Resources:**
   - [Enet](http://enet.bespin.org/)
   - [RakNet](https://github.com/OculusVR/RakNet)
@@ -157,6 +169,7 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 ### **3. Polish and Optimization**
 - Refine performance (physics, rendering, and AI).
 - Add additional gameplay systems, like inventory or advanced AI behaviors.
+- **Recommended Tool:** **Visual Studio** (Optimization and profiling tools).
 
 ---
 
