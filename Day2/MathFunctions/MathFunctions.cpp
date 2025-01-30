@@ -1,8 +1,7 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
-int main()
-{
+int main() {
     double x = 3.99;
     double y = 4;
     double z;
