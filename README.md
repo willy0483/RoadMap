@@ -15,7 +15,6 @@ A step-by-step guide to building your own game engine, leveraging existing libra
 
 ---
 
-
 ## 🔑 Key Extensions/Tools for VS Code
 
 If you choose **VS Code**, here are some essential extensions to enhance your game engine development workflow:
@@ -32,28 +31,7 @@ If you choose **VS Code**, here are some essential extensions to enhance your ga
 
 ---
 
-### **Why These Extensions?**
-- **C/C++ Extension**: Essential for C++ development, offering powerful debugging and IntelliSense features.
-- **CMake Tools**: Streamlines build configuration, especially for larger projects.
-- **GLSL Lint**: Ensures your shader code is clean and error-free.
-- **Lua/Python Extensions**: Enables seamless integration of scripting languages into your engine.
-- **GitLens**: Improves version control workflows, making collaboration easier.
-- **Clang-Format**: Keeps your codebase clean and consistent.
-- **Doxygen Documentation Generator**: Helps you maintain clear and professional documentation.
 
----
-
-### **How to Install**
-1. Open **VS Code**.
-2. Go to the **Extensions Marketplace** (Ctrl+Shift+X).
-3. Search for the extension name (e.g., "C/C++").
-4. Click **Install** and restart VS Code if necessary.
-
----
-
-These extensions will significantly boost your productivity and make **VS Code** a powerful tool for game engine development. 🚀
-
----
 
 ## 🛠 Year 1: Build the Foundations
 
@@ -61,7 +39,6 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Goal:** Master the basics of C++ programming.
 - **Tasks:**
   - Learn syntax, OOP principles, and memory management.
-  - Practice small projects like a text-based game or a simple calculator.
   - Explore modern C++ features (C++11/14/17/20).
 - **Recommended Tool:** **VS Code** (Lightweight and fast for learning).
   - Install the **C/C++ Extension** for IntelliSense and debugging.
@@ -70,6 +47,10 @@ These extensions will significantly boost your productivity and make **VS Code**
   - [C++ Primer (Book)](https://www.amazon.com/C-Primer-Stanley-B-Lippman/dp/0321714113)
   - [Effective Modern C++ (Book)](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
   - [C++ Programming Tutorial Playlist (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- **Projects:**
+  - Build a text-based adventure game.
+  - Create a simple calculator with a command-line interface.
+  - Implement a basic file parser that reads and writes structured data.
 
 ---
 
@@ -81,13 +62,10 @@ These extensions will significantly boost your productivity and make **VS Code**
     - Use **SDL2** or **GLFW** to create a window and handle input.
     - Use **stb_image.h** to load textures and display a 2D sprite.
   - Build a simple 2D game (e.g., Pong or Breakout).
-- **Recommended Tool:** **VS Code** (Lightweight and customizable).
-  - Use extensions like **CMake Tools** for build management.
-- **Resources:**
-  - [SDL2 Documentation](https://wiki.libsdl.org/)
-  - [GLFW Documentation](https://www.glfw.org/docs/latest/)
-  - [Handmade Hero (YouTube Series)](https://www.youtube.com/c/HandmadeHero)
-  - [2D Game Engine Tutorial (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
+- **Projects:**
+  - Create a simple sprite-based game using SDL2.
+  - Implement a basic input handling system (keyboard + mouse).
+  - Develop a simple scene management system.
 
 ---
 
@@ -98,16 +76,11 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Tasks:**
   - Learn a graphics API like **OpenGL** or **Vulkan**.
   - Use **Assimp** to load 3D models (e.g., OBJ or FBX).
-  - Add textures using **stb_image.h**.
   - Implement basic lighting (e.g., Phong shading).
-- **Milestone:** Render a textured 3D cube with a movable camera and basic lighting.
-- **Recommended Tool:** **Visual Studio** (Advanced debugging and profiling for 3D rendering).
-  - Use **Visual Studio's GPU Debugging Tools** for OpenGL/Vulkan.
-- **Resources:**
-  - [OpenGL Tutorials](https://learnopengl.com)
-  - [Vulkan Tutorial](https://vulkan-tutorial.com)
-  - [The Cherno's OpenGL Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
-  - [Vulkan Tutorial Series (Brendan Galea)](https://www.youtube.com/playlist?list=PL8327DO66OH9KBLvI9W6vIy6mh9j7I6Z_)
+- **Projects:**
+  - Create a 3D model viewer that loads and renders OBJ models.
+  - Implement a first-person camera system.
+  - Build a simple scene with lighting and texture mapping.
 
 ---
 
@@ -115,15 +88,11 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Goal:** Simulate collisions and basic rigid body physics.
 - **Tasks:**
   - Use **Bullet Physics** for 3D physics simulation.
-  - For 2D experiments, try **Box2D**.
   - Implement collision detection and response.
-- **Milestone:** Simulate falling objects that collide and respond to forces.
-- **Recommended Tool:** **Visual Studio** (Advanced debugging for physics simulations).
-- **Resources:**
-  - [Bullet Physics Documentation](https://pybullet.org/wordpress/)
-  - [Box2D Manual](https://box2d.org/documentation/)
-  - [Game Physics Engine Development (Book)](https://www.amazon.com/Game-Physics-Engine-Development-Commercial-Grade/dp/0123819768)
-  - [Box2D Tutorial Series (iforce2d)](https://www.youtube.com/playlist?list=PLSlpr6o9vURwq3oxVZSimY8iC-cdd3kIs)
+- **Projects:**
+  - Create a physics sandbox where objects can be spawned and moved.
+  - Implement a simple ragdoll physics simulation.
+  - Develop a bouncing ball simulation with gravity.
 
 ---
 
@@ -134,14 +103,10 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Tasks:**
   - Use **SDL2** or **GLFW** for input handling.
   - Add 3D audio using **OpenAL** or **FMOD**.
-  - Implement basic sound effects and background music.
-- **Milestone:** Enable the player to move and hear sound effects (e.g., footsteps, gunfire).
-- **Recommended Tool:** **VS Code** (Lightweight for scripting and audio integration).
-- **Resources:**
-  - [OpenAL Documentation](https://openal.org/)
-  - [FMOD API](https://fmod.com/)
-  - [SDL2 Audio Tutorial](https://wiki.libsdl.org/SDL_Audio)
-  - [OpenAL Tutorial Series (Victor Gordan)](https://www.youtube.com/playlist?list=PLPaoO-vpZnumO6StgYV6g7Z5Rz1jY7z0L)
+- **Projects:**
+  - Implement a key rebinding system.
+  - Add environmental sound effects (footsteps, wind, etc.).
+  - Create a sound-based puzzle game.
 
 ---
 
@@ -149,14 +114,11 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Goal:** Enable gameplay logic scripting.
 - **Tasks:**
   - Integrate **Lua** to handle gameplay scripts like enemy spawning or events.
-  - Create a simple API to interact with game objects.
   - Implement basic game logic via scripting.
-- **Milestone:** Implement basic game logic via scripting.
-- **Recommended Tool:** **VS Code** (Great for scripting with Lua/Python extensions).
-- **Resources:**
-  - [Programming in Lua](https://www.lua.org/pil/)
-  - [Sol2 (C++ Lua Binding)](https://github.com/ThePhD/sol2)
-  - [Lua Scripting Tutorial (The Cherno)](https://www.youtube.com/watch?v=wBp62mD7sO4)
+- **Projects:**
+  - Create a simple event system triggered by Lua scripts.
+  - Implement a scripted AI behavior for NPCs.
+  - Develop a simple quest system using Lua.
 
 ---
 
@@ -165,15 +127,10 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Tasks:**
   - Create a single level with basic FPS mechanics.
   - Include one enemy type with simple AI.
-  - Use **Recast & Detour** for pathfinding.
-  - Use **Dear ImGui** for UI (e.g., debugging or HUD).
-- **Milestone:** A playable prototype with basic mechanics.
-- **Recommended Tool:** **Visual Studio** (Advanced debugging and optimization for game prototypes).
-- **Resources:**
-  - [Recast & Detour](https://github.com/recastnavigation/recastnavigation)
-  - [Dear ImGui](https://github.com/ocornut/imgui)
-  - [Game AI Pro (Book)](https://www.gameaipro.com/)
-  - [Dear ImGui Tutorial Series (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
+- **Projects:**
+  - Develop a basic first-person shooter prototype.
+  - Implement a simple AI enemy that follows the player.
+  - Create an interactive level with doors, pickups, and objectives.
 
 ---
 
@@ -183,13 +140,11 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Goal:** Add advanced visual effects.
 - **Tasks:**
   - Implement features like shadows, reflections, and bloom.
-  - Optimize rendering performance with techniques like Level of Detail (LOD).
   - Explore deferred shading or physically-based rendering (PBR).
-- **Recommended Tool:** **Visual Studio** (Advanced profiling and debugging for graphics).
-- **Resources:**
-  - [Real-Time Rendering (Book)](https://www.realtimerendering.com/)
-  - [The Cherno's Game Engine Series (YouTube)](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
-  - [Advanced OpenGL Tutorials (The Cherno)](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
+- **Projects:**
+  - Implement a dynamic day/night cycle.
+  - Add realistic water rendering with reflections.
+  - Develop a volumetric lighting system.
 
 ---
 
@@ -198,18 +153,22 @@ These extensions will significantly boost your productivity and make **VS Code**
 - **Tasks:**
   - Use **Enet** or **RakNet** for client-server communication.
   - Sync player actions across multiple clients.
-- **Recommended Tool:** **Visual Studio** (Advanced debugging for networking).
-- **Resources:**
-  - [Enet](http://enet.bespin.org/)
-  - [RakNet](https://github.com/OculusVR/RakNet)
-  - [Networking Tutorial Series (Brendan Galea)](https://www.youtube.com/playlist?list=PL8327DO66OH9KBLvI9W6vIy6mh9j7I6Z_)
+- **Projects:**
+  - Implement a basic multiplayer chat system.
+  - Create a simple peer-to-peer networked game.
+  - Develop a turn-based strategy game with networked gameplay.
 
 ---
 
 ### **3. Polish and Optimization**
-- Refine performance (physics, rendering, and AI).
-- Add additional gameplay systems, like inventory or advanced AI behaviors.
-- **Recommended Tool:** **Visual Studio** (Optimization and profiling tools).
+- **Goal:** Optimize performance and finalize the engine.
+- **Tasks:**
+  - Refine performance (physics, rendering, and AI).
+  - Add additional gameplay systems, like inventory or advanced AI behaviors.
+- **Projects:**
+  - Implement a level-of-detail (LOD) system for rendering.
+  - Optimize collision detection for complex scenes.
+  - Develop an in-engine performance profiler.
 
 ---
 
